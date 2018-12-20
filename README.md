@@ -153,7 +153,13 @@ After the model is finished different different figures are opened to visualize 
 ![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/Comparison.PNG)
 
 3) A comparison between simulated travel times and observed travel times allong the corridor
+
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/TravelTimeComp.PNG)
+
 4) A smoothed space-time diagram of flows allong the corridor.
+
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/Flow_Simulation.PNG)
+
 5) A smoothed space-time diagram of speeds allong the corridor.
 
-
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/Speed_Simulation.PNG)
