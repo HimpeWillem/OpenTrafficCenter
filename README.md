@@ -23,7 +23,7 @@ The application is built in two phases
 
 ### Select and visualize data along a selected corridor
 
-Run the main file VISUALIZECORRIDOR.m or VISUALIZECORRIDOR_no.m to start the application.
+Run the main file VISUALIZECORRIDOR.m or VISUALIZECORRIDOR_noDB.m to start the application.
 It is recommended to run this file section by section following the inline instructions, the outprints displayed in the command window or the text inside pop-up figures.
 
 The general steps of phase 1 are:
@@ -51,4 +51,36 @@ The general steps of phase 2 are:
 7) Compare simulated travel times with observed travel times
 8) Animate the result
 9) Visualize flows and counts for observed roads
+
+## Example
+
+### Data gathering
+Extract the csv data files and place them in your working directory allong with all the matlab files.
+### Main file
+Run the file VISUALIZECORRIDOR_NoDB.m in matlab. For more control Run this file section by section.
+```python
+  VISUALIZECORRIDOR_NoDB
+```
+### Select a corridor
+-When prompted to select points select From a List. 
+-Pick the first corridor (E314 Leuven Lummen)
+
+### Select a time window
+The supplied data is gathered on 11th of December 2018. Pick the appropriate time for the evening peak (15:00 to 20:00). More data kan be found on http://db.itscrealab.be/download/loop_detectors/ 
+
+### Identifying bad detector locations
+-Scroll through the data detector location by location and observe that for location #7 no data is available
+-Close the window with the data and select From a List when prompted to remove a detector
+-Select detector location #7 named Complex nr 20 ? Wilsele ? De Vunt and click on ok
+-No other detectors should be removed
+
+### Visualizing the processed data
+Next 6 figures are plotted of the selected corridor.
+1) An overiew of the corridor on the map. Click on the blue diamont points to get an overview of the data for the detectors at that specific location
+2) A smoothed space-time diagram of speeds allong the corridor. This is an excellent way of visualizing the congestion patterns allong the corridor. The black horizontal lines are detector locations. Inbetween detector locations data is interpolated using a filtering technique that takes into account spatio-temporal relations in traffic (according to Treiber-Helbing 2002).
+3) A smoothed space-time diagram of flows allong the corridor.
+4) An interactive overview of all detectors on the main corridor 
+5) An interactive overview of all detectors on the on-ramps
+6) An interactive overview of all detectors on the off-ramps
+
 
