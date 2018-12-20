@@ -144,12 +144,11 @@ After the model is finished different different figures are opened to visualize 
 
 ![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/Animation.PNG)
 
-2) 
-..a) An overview of detector locations in the network. Zoom into a specific zone, hit any key on the keyboard and click on a link to visualize the difference between the observations and simulation at a specific location. 
+2.a) An overview of detector locations in the network. Zoom into a specific zone, hit any key on the keyboard and click on a link to visualize the difference between the observations and simulation at a specific location. 
 
 ![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/SelectLinkComp.PNG)
 
-..b) A new figure will be opened for each link that you click
+2.b) A new figure will be opened for each link that you click
 
 ![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/Comparison.PNG)
 
