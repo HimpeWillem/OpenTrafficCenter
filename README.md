@@ -63,12 +63,17 @@ Run the file VISUALIZECORRIDOR_NoDB.m in matlab. For more control Run this file 
 ```
 ### Select a corridor
 - When prompted to select points select  **From a List**. 
+
 ![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/SelectPoints.PNG)
+
 - Pick the first corridor (**E314 Leuven Lummen**)
+
 ![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/SelectCorridor.PNG)
 
 ### Select a time window
 The supplied data is gathered on 11th of December 2018. Pick the appropriate time for the evening peak (**15:00** to **20:00**). Data for different dates can be found on http://db.itscrealab.be/download/loop_detectors/ 
+
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/SelectTime.PNG)
 
 ### Identifying bad detector locations
 - Scroll through the data detector location by location and observe that for **location #7** no data is available
