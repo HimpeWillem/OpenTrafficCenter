@@ -163,3 +163,10 @@ After the model is finished different different figures are opened to visualize 
 5) A smoothed space-time diagram of speeds allong the corridor.
 
 ![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/Speed_Simulation.PNG)
+
+### Outlook
+
+The presented example shows a resonable fit to the data with standard model parameters. An even better fit is possible by tweeking the capacity of the bottleneck or the standard values (like jam density) of different highway sections. 
+
+The model can now be used the evaluate scenrios like the opening of peak hour lanes downstream of the current bottleneck. 
+
