@@ -114,7 +114,7 @@ Next 6 figures are plotted of the selected corridor.
 
 5) An interactive overview of all detectors on the on-ramps
 
-![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/ObservationsOnRamp.PNG)
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/ObservationsOn.PNG)
 
 6) An interactive overview of all detectors on the off-ramps
 
