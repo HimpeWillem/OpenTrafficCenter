@@ -62,7 +62,7 @@ Run the file VISUALIZECORRIDOR_NoDB.m in matlab. For more control Run this file 
   VISUALIZECORRIDOR_NoDB
 ```
 ### Select a corridor
-- When prompted to select points select  **From a List **. 
+- When prompted to select points select  **From a List**. 
 - Pick the first corridor (**E314 Leuven Lummen**)
 
 ### Select a time window
@@ -70,8 +70,8 @@ The supplied data is gathered on 11th of December 2018. Pick the appropriate tim
 
 ### Identifying bad detector locations
 - Scroll through the data detector location by location and observe that for **location #7** no data is available
-- Close the window with the data and select From a List when prompted to remove a detector
-- Select detector location #7 named **Complex nr 20 ? Wilsele ? De Vunt** and click on ok
+- Close the window with the data and select **From a List** when prompted to remove a detector
+- Select detector location #7 named **Complex nr 20 ? Wilsele ? De Vunt** and click on **ok**
 - No other detectors should be removed
 
 ### Visualizing the processed data
