@@ -100,10 +100,10 @@ When promped to change the capacity of link click on **No** such that only the s
 
 ### Running the simulation and inspecting the result
 After the model is finished different different figures are opened to visualize the result:
-11) On top is an animation of the density in the network over time. Press space-bar to start the animation. If you close the figure the animation is stopped and the next figure is highlighted 
-10) An overview of detector locations in the network. Zoom into a specific zone, hit any key on the keyboard and click on a link to visualize the difference between the observations and simulation at a specific location. A new figure will be opened for each link that you click
-9) A comparison between simulated travel times and observed travel times allong the corridor
-8) A smoothed space-time diagram of flows allong the corridor.
-7) A smoothed space-time diagram of speeds allong the corridor.
+11. On top is an animation of the density in the network over time. Press space-bar to start the animation. If you close the figure the animation is stopped and the next figure is highlighted 
+10. An overview of detector locations in the network. Zoom into a specific zone, hit any key on the keyboard and click on a link to visualize the difference between the observations and simulation at a specific location. A new figure will be opened for each link that you click
+9. A comparison between simulated travel times and observed travel times allong the corridor
+8. A smoothed space-time diagram of flows allong the corridor.
+7. A smoothed space-time diagram of speeds allong the corridor.
 
 
