@@ -23,7 +23,7 @@ The application is built in two phases
 
 ### Select and visualize data along a selected corridor
 
-Run the main file VISUALIZECORRIDOR.m or VISUALIZECORRIDOR_noDB.m to start the application.
+Run the main file  **VISUALIZECORRIDOR.m** or  **VISUALIZECORRIDOR_noDB.m** to start the application.
 It is recommended to run this file section by section following the inline instructions, the outprints displayed in the command window or the text inside pop-up figures.
 
 The general steps of phase 1 are:
@@ -62,16 +62,16 @@ Run the file VISUALIZECORRIDOR_NoDB.m in matlab. For more control Run this file 
   VISUALIZECORRIDOR_NoDB
 ```
 ### Select a corridor
-- When prompted to select points select From a List. 
-- Pick the first corridor (E314 Leuven Lummen)
+- When prompted to select points select  **From a List **. 
+- Pick the first corridor (**E314 Leuven Lummen**)
 
 ### Select a time window
-The supplied data is gathered on 11th of December 2018. Pick the appropriate time for the evening peak (15:00 to 20:00). Data for different dates can be found on http://db.itscrealab.be/download/loop_detectors/ 
+The supplied data is gathered on 11th of December 2018. Pick the appropriate time for the evening peak (**15:00** to **20:00**). Data for different dates can be found on http://db.itscrealab.be/download/loop_detectors/ 
 
 ### Identifying bad detector locations
-- Scroll through the data detector location by location and observe that for location #7 no data is available
+- Scroll through the data detector location by location and observe that for **location #7** no data is available
 - Close the window with the data and select From a List when prompted to remove a detector
-- Select detector location #7 named Complex nr 20 ? Wilsele ? De Vunt and click on ok
+- Select detector location #7 named **Complex nr 20 ? Wilsele ? De Vunt** and click on ok
 - No other detectors should be removed
 
 ### Visualizing the processed data
@@ -86,7 +86,7 @@ Next 6 figures are plotted of the selected corridor.
 ### Create demand 
 Now open the file CREATEMODEL.m. All of the data is processed and is used in this m-file to create a model representation of the selected corridor. For more control Run this file section by section.
 ```MATLAB
-  CREATEMODEL.m
+  CREATEMODEL
 ```
 The model uses the detector counts to create demand at each origin (source) and splitting rates at every diverge node in the network.
 
@@ -96,7 +96,7 @@ The model recuires additional attributes for every link. Based on the number of 
 capacity_per_lane = 2100;
 kjam_per_lane = 100;
 ```
-When promped to change the capacity of link click on No such that only the standard values are used
+When promped to change the capacity of link click on **No** such that only the standard values are used
 
 ### Running the simulation and inspecting the result
 After the model is finished different different figures are opened to visualize the result
