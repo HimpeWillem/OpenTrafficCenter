@@ -1,6 +1,6 @@
 # OpenTrafficCenter
 
-A basic implementation of a traffic monitoring and control center of the Flemish Highway system in Matlab.
+A basic implementation of a traffic monitoring and control center of the Flemish Highway system in Matlab developed by the **L-Mob Research Center** at the **KULeuven**
 
 
 ## Introduction
