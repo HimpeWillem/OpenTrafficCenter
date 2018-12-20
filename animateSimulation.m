@@ -73,8 +73,8 @@ axis([min(min(xrec))-margX max(max(xrec))+margX min(min(yrec))-margY max(max(yre
 pause()
 delete(handle_txt);
 colorbar('EastOutside');
-for t=1:size(timeSteps,2)
-    title(num2str(timeSteps(t)));
+for t=1:size(timeSteps,1)
+    title(timeSteps(t,:));
     [handle_fig,handle_rect,handle_txt] = plotLoadedLinks(nodes,links,values(:,t),false,handle_fig,[],max(max(values(:,:))));
 
     if isinf(frate)
