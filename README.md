@@ -52,27 +52,27 @@ The general steps of phase 2 are:
 8) Animate the result
 9) Visualize flows and counts for observed roads
 
-## Example
+## Example: some notes
 
 ### Data gathering
 Extract the csv data files and place them in your working directory allong with all the matlab files.
 ### Main file
 Run the file VISUALIZECORRIDOR_NoDB.m in matlab. For more control Run this file section by section.
-```python
+```MATLAB
   VISUALIZECORRIDOR_NoDB
 ```
 ### Select a corridor
--When prompted to select points select From a List. 
--Pick the first corridor (E314 Leuven Lummen)
+- When prompted to select points select From a List. 
+- Pick the first corridor (E314 Leuven Lummen)
 
 ### Select a time window
-The supplied data is gathered on 11th of December 2018. Pick the appropriate time for the evening peak (15:00 to 20:00). More data kan be found on http://db.itscrealab.be/download/loop_detectors/ 
+The supplied data is gathered on 11th of December 2018. Pick the appropriate time for the evening peak (15:00 to 20:00). Data for different dates can be found on http://db.itscrealab.be/download/loop_detectors/ 
 
 ### Identifying bad detector locations
--Scroll through the data detector location by location and observe that for location #7 no data is available
--Close the window with the data and select From a List when prompted to remove a detector
--Select detector location #7 named Complex nr 20 ? Wilsele ? De Vunt and click on ok
--No other detectors should be removed
+- Scroll through the data detector location by location and observe that for location #7 no data is available
+- Close the window with the data and select From a List when prompted to remove a detector
+- Select detector location #7 named Complex nr 20 ? Wilsele ? De Vunt and click on ok
+- No other detectors should be removed
 
 ### Visualizing the processed data
 Next 6 figures are plotted of the selected corridor.
@@ -82,5 +82,28 @@ Next 6 figures are plotted of the selected corridor.
 4) An interactive overview of all detectors on the main corridor 
 5) An interactive overview of all detectors on the on-ramps
 6) An interactive overview of all detectors on the off-ramps
+
+### Create demand 
+Now open the file CREATEMODEL.m. All of the data is processed and is used in this m-file to create a model representation of the selected corridor. For more control Run this file section by section.
+```MATLAB
+  CREATEMODEL.m
+```
+The model uses the detector counts to create demand at each origin (source) and splitting rates at every diverge node in the network.
+
+### Setting the standard values of the supply
+The model recuires additional attributes for every link. Based on the number of lanes, a standard capacity and jam density is assigned to each link (line 28 & 29 in the code). The maximum spillback speed is derived from these values to conform the assumption of a triangular diagram. Additionally you can set the capacity of specific links manually (for example by looking at capacity outflow in the data).
+```MATLAB
+capacity_per_lane = 2100;
+kjam_per_lane = 100;
+```
+When promped to change the capacity of link click on No such that only the standard values are used
+
+### Running the simulation and inspecting the result
+After the model is finished different different figures are opened to visualize the result
+11) On top is an animation of the density in the network over time. Press space-bar to start the animation. If you close the figure the animation is stopped and the next figure is highlighted 
+10) An overview of detector locations in the network. Zoom into a specific zone, hit any key on the keyboard and click on a link to visualize the difference between the observations and simulation at a specific location. A new figure will be opened for each link that you click
+9) A comparison between simulated travel times and observed travel times allong the corridor
+8) A smoothed space-time diagram of flows allong the corridor.
+7) A smoothed space-time diagram of speeds allong the corridor.
 
 
