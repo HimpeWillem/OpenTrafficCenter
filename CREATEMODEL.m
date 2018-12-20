@@ -99,9 +99,9 @@ legend('Simulated','Observed')
 % every 10th simulation interval.
 %
 % 
-fRate = 1; %set frame rate
+fRate = 20; %set frame rate
 % fRate = inf; %allows the for manual control using space bar
-animateSimulation(nodes,links,min(max(links.kJam(1:main_links)),simDensity(:,1:end)),datestr(time_plot(1:end)),fRate); %only shows every 10th frame
+animateSimulation(nodes,links,min(max(links.kJam(1:main_links)),simDensity(:,1:10:end)),datestr(time_plot(1:10:end)),fRate); %only shows every 10th frame
 
 %% Visualize the flows
 
