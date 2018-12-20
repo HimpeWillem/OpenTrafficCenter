@@ -77,9 +77,21 @@ The supplied data is gathered on 11th of December 2018. Pick the appropriate tim
 
 ### Identifying bad detector locations
 - Scroll through the data detector location by location and observe that for **location #7** no data is available
+
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/NoData.PNG)
+
 - Close the window with the data and select **From a List** when prompted to remove a detector
+
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/RemoveDetector.PNG)
+
 - Select detector location #7 named **Complex nr 20 ? Wilsele ? De Vunt** and click on **ok**
+
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/RemoveLocation.PNG)
+
 - No other detectors should be removed
+
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/NoMoreDetector.PNG)
+
 
 ### Visualizing the processed data
 Next 6 figures are plotted of the selected corridor.
