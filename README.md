@@ -78,7 +78,7 @@ The supplied data is gathered on 11th of December 2018. Pick the appropriate tim
 Next 6 figures are plotted of the selected corridor.
 1) An overiew of the corridor on the map. Click on the blue diamont points to get an overview of the data for the detectors at that specific location
 
-![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/SelectData.jpg)
+![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/Select_Data.jpg)
 
 2) A smoothed space-time diagram of speeds allong the corridor. This is an excellent way of visualizing the congestion patterns allong the corridor. The black horizontal lines are detector locations. Inbetween detector locations data is interpolated using a filtering technique that takes into account spatio-temporal relations in traffic (according to Treiber-Helbing 2002).
 3) A smoothed space-time diagram of flows allong the corridor.
