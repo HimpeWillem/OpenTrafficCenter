@@ -164,7 +164,7 @@ After the model is finished different different figures are opened to visualize 
 
 ![alt text](https://github.com/HimpeWillem/OpenTrafficCenter/blob/master/FIGURES/Speed_Simulation.PNG)
 
-### Outlook
+## Outlook
 
 The presented example shows a resonable fit to the data with standard model parameters. An even better fit is possible by tweeking the capacity of the bottleneck or the standard values (like jam density) of different highway sections. 
 
