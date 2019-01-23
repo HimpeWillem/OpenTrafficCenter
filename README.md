@@ -166,13 +166,13 @@ After the model is finished different different figures are opened to visualize 
 
 ## Outlook
 
-The presented example shows a resonable fit to the data with standard model parameters. An even better fit is possible by tweeking the capacity of the bottleneck or the standard values (like jam density) of different highway sections. 
+The presented example shows a reasonable fit to the data with standard model parameters. An even better fit is possible by tweaking the capacity of the bottleneck or the standard values (like jam density) of different highway sections. 
 
 The interaction rules at merges for redistributing the available downstream space is are rather simplistic and based on entry capacities just as described by the general node model (Tampère, Corthout, Cattrysse & Immers 2010). On highways traffic often clears the right lane at on-ramps such that this capacity based priority distribution isn't accurate. It is recommended to set appropriate on-ramp capacities to account for this. 
 
-The model can now be used the evaluate scenrios like the opening of peak hour lanes downstream of the current bottleneck. In the illustrated case such measures would reduce congestion substantially.
+The model can now be used the evaluate scenarios like the opening of peak hour lanes downstream of the current bottleneck. In the illustrated case such measures would reduce congestion substantially.
 
-The performance of the corridor can be evaluated and compared for different days to show variability in bottleneck throughput. Note that the throughput at weaving sections can be dependend on the amount of the competing flows which is often variable over the peak periode making the capacity of such sections variable over time (the current implementation is limited to a fixed capacity value over the simulation interval).
+The performance of the corridor can be evaluated and compared for different days to show variability in bottleneck throughput. Note that the throughput at weaving sections can be dependent on the amount of the competing flows which is often variable over the peak period making the capacity of such sections variable over time (the current implementation is limited to a fixed capacity value over the simulation interval).
 
 Demand variations can also be observed for different days to compute elasticity or responsiveness. As such these tools are usefull for gaining insights in the behavioral response in case of accidents or road works.
 
