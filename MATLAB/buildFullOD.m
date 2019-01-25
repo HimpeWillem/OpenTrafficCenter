@@ -21,6 +21,7 @@ function OD = buildFullOD(nodes,links,cvn_up,cvn_down,origins,destinations,dt)
 %
 % More information at: https://github.com/HimpeWillem/OpenTrafficCenter
 % or contact: willem.himpe {@} kuleuven.be
+% Code developed for Athens Course at the KUL (November 2018)
 
 
 %% Find the main route
